@@ -28,6 +28,7 @@ import com.android.volley.VolleyError;
 public class AuthFailureError extends VolleyError {
     /** An intent that can be used to resolve this exception. (Brings up the password dialog.) */
     private Intent mResolutionIntent;
+    String a;
 
     public AuthFailureError() { }
 
